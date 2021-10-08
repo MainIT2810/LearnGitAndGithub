@@ -1,0 +1,196 @@
+/* GLOBAL CSS */
+.wrapper{
+    margin: auto;
+    width: 80%;
+}
+.clear{
+    clear: both;
+}
+.section-margin{
+    margin: 0 10px;
+}
+*{
+    box-sizing: border-box;
+}
+/* END GLOBAL CSS */
+
+/* HEADER CSS */
+.header .logo{
+    width: 200px;
+}
+/* END HEADER CSS */
+
+/* NAVBAR CSS  */
+.navbar{
+    background-color: #000000;
+    padding: 10px;
+}
+.navbar ul{
+    list-style: none;
+    margin: 0px 0px;
+    padding-left: 0px;
+}
+.navbar ul li{
+    display: inline;
+    margin-right: 20px ;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.navbar ul li a:hover{
+    color: orangered;
+}
+/* END NAVBAR CSS */
+
+/* CAROUSEL CSS */
+.carousel{
+    background-image: url(../img/slider_1.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center ;
+}
+/* END CAROUSEL CSS */
+
+/* INTRO CSS */
+.intro p {
+    font-size: 18px;
+    text-indent: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.intro-left, .intro-right{
+    float: left;
+    width: 50%;
+    height: 700px;
+}
+.intro-item{
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    padding: 10px 10px;
+    background-clip: content-box;
+
+}
+.intro-1{
+    background-image: url(../img/img_nha_tam.jpg);
+    height: 45%;
+    width: 50%;
+}
+.intro-2{
+    background-image: url(../img/img_sofa.jpg);
+    height: 45%;
+    width: 50%;
+}
+.intro-3{
+    background-image: url(../img/img_noi_that.jpg);
+    height: 55%
+}
+.intro-4{
+    background-image: url(../img/img_phong_khach.jpg);
+    height: 50%
+}
+.intro-5{
+    background-image: url(../img/img_van_phong.jpg);
+    height: 50%
+}
+/* END INTRO CSS */
+
+/* PRODUCT CSS */
+.products > h1{
+    text-align: center;
+    font-size: 30px;
+}
+.product-item{
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+.product-item img{
+    max-width: 100%;
+}
+.product-item h1{
+    font-size: 25px;
+    font-weight: normal;
+}
+.product-item p {
+    text-align: justify;
+}
+.product-item button{
+    background-color: #da5350;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.product-item button:hover{
+    background-color: #f01612;
+}
+/* END PRODUCT CSS */
+
+/* BANNER  CSS */
+.banner{
+    background-image: url(../img/nature.jpg);
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.banner-cricle{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: rgba(125, 47,43 , 0.8);
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+.banner-cricle p{
+    font-size: 80px;
+    margin: 10px 0;
+}
+.banner-cricle p:first-child{
+    font-size: 40px;
+}
+.banner-cricle p:last-child{
+    font-size: 20px;
+}
+/* END BANNER CSS */
+
+/* SEVICES CSS */
+.service-list{
+    width: 60%;
+    margin: auto;
+}
+.service-item{
+    float: left;
+    width: 33.3333%;
+    text-align: center;
+    padding-top: 30px;
+}
+.service-item i{
+    font-size: 50px;
+}
+.service-item h1{
+    font-weight: normal;
+    margin: 7px 0;
+    font-size: 25px;
+}
+/* END SEVICES CSS */
+
+/* FOOTER CSS */
+.footer{
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    font-size: 15px;
+}
+/* END FOOTER CSS */
